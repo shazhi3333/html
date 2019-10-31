@@ -37,6 +37,14 @@ table{border-collapse: collapse; border-spacing:0;}
 caption, th{text-align: left;}
 a:focus {outline:none;}
 
+/*基本設定*/
+body{
+  font-family: "メイリオ",Meiryo;
+  color: #434343;
+}
+
+
+
 /*ヘッダー*/
 header{
    width: 100%;
@@ -54,11 +62,29 @@ div#header_inner{
 
 h1{
   float: left;
+  font-size: 24px;
+}
+
+a{ 
+  color: #ffffff;
+  text-decoration: none;
 }
 
 nav{
   font-size: 18px;
   float: right;
   margin: 30px;
+}
+
+nav ul li {
+  float: left;
+  border-left: 1px solid #434343;
+  padding-left: 20px;
+  margin-left: 20px;
+}
+
+nav ul li:last-child{
+  border-right: 1px solid #434343;
+  padding-right: 20px;
 }
 
